@@ -12,7 +12,7 @@ const url = 'https://jsonplaceholder.typicode.com/todos/1';
 function loadData() {
   fetch(url)
     .then((Response) => Response.json())
-    .then((data) => displayUsers(data));
+    .then((data) =>displayUsers(data));
 }
 
 function displayUsers(data){
